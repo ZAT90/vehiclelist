@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-import { Table, Button, ConfigProvider } from 'antd';
+import React from 'react';
+import { Table, Button } from 'antd';
 import { PlusOutlined } from '@ant-design/icons';
 import { useGetVehicleListQuery } from '../services/queries/vehicle';
 import './stylings/VehicleListStyling.css'
