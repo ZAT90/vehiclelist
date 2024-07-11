@@ -1,0 +1,31 @@
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center */
+    align-items: center;     /* Center horizontally */
+    height: 100%;            /* Take the full height of the parent */
+    padding: 20px;         /* Add padding on top and bottom */
+    box-sizing: border-box;
+    background-color: #7adeae  /* Include padding in the height calculation */
+  }
+  .centered-heading {
+    margin: 0; 
+    color: #808080     
+            /* Remove default margin */
+  }
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: end; /* Vertically center */
+    align-items: end;     /* Center horizontally */
+    height: 100%;
+    padding: 20px;              /* Take the full height of the parent */
+    padding-right: 20px;         /* Add padding on top and bottom */
+    box-sizing: border-box;
+    background-color: #ffffff  /* Include padding in the height calculation */
+  }
+  .custom-table .ant-table-thead > tr > th {
+    background-color: #f0f0f0; /* Background color */
+    color: #808080 ;            /* Text color */
+    border-bottom: 2px solid #808080
+  }
